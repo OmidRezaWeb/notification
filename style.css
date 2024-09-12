@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+button {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.continer {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+
+    overflow: hidden;
+}
+
+.notif {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+}
